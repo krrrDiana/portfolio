@@ -1,0 +1,77 @@
+.future-container {
+    max-width: 880px;
+    margin: 4rem auto;
+    padding: 2.5rem 3rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    font-family: 'Inter', sans-serif;
+    color: #1f2937;
+  }
+  
+  .future-title {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #111827;
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.9rem;
+    color: #3b82f6;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .future-steps {
+    counter-reset: step;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .future-steps li {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    position: relative;
+  }
+  
+  .future-steps li::before {
+    counter-increment: step;
+    content: counter(step) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+    color: #2563eb;
+    font-size: 1.2rem;
+  }
+  
+  .future-steps h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    color: #374151;
+  }
+  
+  .future-steps p {
+    color: #4b5563;
+    font-size: 1.05rem;
+  }
+  
+  .quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #6b7280;
+    background-color: #f1f5f9;
+    border-left: 4px solid #3b82f6;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  
+  section p {
+    font-size: 1.05rem;
+    color: #374151;
+    margin-top: 0.8rem;
+  }
+  
